@@ -10,12 +10,20 @@ MPG = (vehicle_length x 6.267) + (vehicle_weight x 0.001) + (spoiler_angle x 0.0
 
 Note: AWD is either 0 or 1 with 1's representing cars with All Wheel Drive
 
-*Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?*
-The vehicle length and the ground clearance both have very small p-values: 0.000000000026, and 0.0000000521 respectively. Since their p-values are much smaller than our typical 0.05% threshold, they provide a non-random amount of variance to the mpg values in the dataset.
+
+**Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
+The vehicle length and the ground clearance both have very small p-values: 0.000000000026, and 0.0000000521 respectively. Since their p-values are much smaller than our typical 0.05 threshold, they provide a non-random amount of variance to the mpg values in the dataset.
+On the other hand, vehicle_weight, spoiler_angle, and AWD all had p-values over three times the threshold. Since the p-values are larger than the threshold, they are likely to produce random amounts of variance.
+
+
+
+COMPLETE STUFF BELOW
+
+**Is the slope of the linear model considered to be zero? Why or why not?**
+No - the p-value for the 
 
 
 
 
-
-Is the slope of the linear model considered to be zero? Why or why not?
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+**Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
+The R-sqaured value is 0.7149 which indicates a strong correlation, and the p-value is 0.0000000000535 which suggests we should 
