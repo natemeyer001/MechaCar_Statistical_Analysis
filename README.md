@@ -7,6 +7,7 @@ MechaCar has created lots of prototypes for new cars and wants to determine the 
 
 The overall equation is: 
 MPG = (vehicle_length x 6.267) + (vehicle_weight x 0.001) + (spoiler_angle x 0.069) + (ground_clearance x 3.546) - (AWD x 3.411) - 0.0104
+
 Note: AWD is either 0 or 1 with 1's representing cars with All Wheel Drive
 
 *Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?*
