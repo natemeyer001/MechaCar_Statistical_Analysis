@@ -29,6 +29,7 @@ The R-sqaured value is 0.7149 which indicates a strong correlation, and thus the
 
 ## Summary Statistics on Suspension Coils
 Here are the current means, medians, variances, and standard deviations for 1) all cars, and 2) all cars but grouped by manufacturing lot respectively.
+
 ![total_summary](https://user-images.githubusercontent.com/30487641/139481721-2b5d820c-1443-418c-90ed-a0b33805f1ba.PNG)
 ![lot_summary](https://user-images.githubusercontent.com/30487641/139481735-743f7d70-9816-404f-b2f0-0691d6f3ef18.PNG)
 
