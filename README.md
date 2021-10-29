@@ -36,7 +36,8 @@ Here are the current means, medians, variances, and standard deviations for 1) a
 
 **The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
 
-The variance for all cars is 62.29, which passes the threshold, but we need to look under the hood to see what's really going on. Looking at the first two lots we see fantastic results, with variances of 0.98 and 7.47 respectively. The real issue is with lot 3 with a variance of 170.29 that fais miserably. Soemthing appears to be very off with the third lot, and comparisons need to be done by lots to suss out the situation. Fortunately we looked at the lots individualy and noticed lot3 has problems, even though the overall cars variance is acceptable.
+The variance for all cars is 62.29, which passes the threshold, but we need to look under the hood to see what's really going on. Looking at the first two lots we see fantastic results, with variances of 0.98 and 7.47 respectively. Red flags arrise with lot 3 with a variance of 170.29 that fails the design specifications miserably. Soemthing appears to be very off with the third lot, and comparisons need to be done by lots to suss out the situation.
+
 
 
 
