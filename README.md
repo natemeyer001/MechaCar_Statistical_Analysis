@@ -27,6 +27,7 @@ No - the p-value for the model is 0.0000000000535 which is well below our 0.05 t
 The R-sqaured value is 0.7149 which indicates a strong correlation, and thus the linear model is a good predictor of mpg. Note: the cut-off from "moderate" to "strong" is at 0.7
 
 
+
 ## Summary Statistics on Suspension Coils
 Here are the current means, medians, variances, and standard deviations for 1) all cars, and 2) all cars but grouped by manufacturing lot respectively.
 
@@ -39,6 +40,10 @@ Here are the current means, medians, variances, and standard deviations for 1) a
 The variance for all cars is 62.29, which passes the threshold, but we need to look under the hood to see what's really going on. Looking at the first two lots we see fantastic results, with variances of 0.98 and 7.47 respectively. Red flags arrise with lot 3 with a variance of 170.29 that fails the design specifications miserably. Soemthing appears to be very off with the third lot, and comparisons need to be done by lots to suss out the situation.
 
 
+
+## T-Tests on Suspension Coils
+
+briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
 
 
