@@ -25,3 +25,18 @@ No - the p-value for the model is 0.0000000000535 which is well below our 0.05 t
 **Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
 
 The R-sqaured value is 0.7149 which indicates a strong correlation, and thus the linear model is a good predictor of mpg. Note: the cut-off from "moderate" to "strong" is at 0.7
+
+
+## Summary Statistics on Suspension Coils
+Here are the current means, medians, variances, and standard deviations for 1) all cars, and 2) all cars but grouped by manufacturing lot respectively.
+![total_summary](https://user-images.githubusercontent.com/30487641/139481721-2b5d820c-1443-418c-90ed-a0b33805f1ba.PNG)
+![lot_summary](https://user-images.githubusercontent.com/30487641/139481735-743f7d70-9816-404f-b2f0-0691d6f3ef18.PNG)
+
+
+**The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
+
+The variance for all cars is 62.29, which passes the threshold, but we need to look under the hood to see what's really going on. Looking at the first two lots we see fantastic results, with variances of 0.98 and 7.47 respectively. The real issue is with lot 3 with a variance of 170.29 that fais miserably. Soemthing appears to be very off with the third lot, and comparisons need to be done by lots to suss out the situation. Fortunately we looked at the lots individualy and noticed lot3 has problems, even though the overall cars variance is acceptable.
+
+
+
+
