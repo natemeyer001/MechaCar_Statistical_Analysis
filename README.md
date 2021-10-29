@@ -17,11 +17,9 @@ The vehicle length and the ground clearance both have very small p-values: 0.000
 On the other hand, vehicle_weight, spoiler_angle, and AWD all had p-values over three times the threshold. Since the p-values are larger than the threshold, they are likely to produce random amounts of variance.
 
 
-
 **Is the slope of the linear model considered to be zero? Why or why not?**
 
 No - the p-value for the model is 0.0000000000535 which is well below our 0.05 threshold. Therefore, we reject the null hypothesis that the slope of the model is zero. This is a good thing because a model with a slope of zero means each dependent value would be determined by random chance and error.
-
 
 
 **Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
