@@ -42,6 +42,7 @@ The variance for all cars is 62.29, which passes the threshold, but we need to l
 
 
 ## T-Tests on Suspension Coils
+### Results
 To determine if all manufacturing lots are statistically different from the population, I performed a t-test on the means. I used a random sample of 50 PSI readings to test agains the population average. The results are below.
 ![t_test](https://user-images.githubusercontent.com/30487641/139542991-bc4a105b-5130-4070-9019-bb75ce13d965.PNG)
 
@@ -65,8 +66,6 @@ The p-value (0.1188) is above our threshold, so we fail to reject the null hypot
 
 
 
-
-
-
-
+## Study Design: MechaCar vs Competition
+Are MechaCar's highway fuel efficiencies better than the competiton's highway fuel efficiencies when looking by vehicle class size? For example, do the compact cars from MechaCars have the same average highway efficiency as the competition's? The null hypothesis for each vehicle size would be: MechaCar's average highway fuel efficiency is statistically similar to the competition's average highway fuel efficiency. The alternate would be that they are not statistically different. I would use a paired t-test because there are two different populations comparing the same measurements that I want to compare. The MechaCar data I have includes fuel efficiency but does not specify if it is highway, or city, or a combination. So, for both MechaCar and competition, I would need the data on just the highway fuel efficieny as well as a column for vehicle class size. Both of which should be easily accessible.
 
