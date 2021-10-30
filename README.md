@@ -44,20 +44,16 @@ The variance for all cars is 62.29, which passes the threshold, but we need to l
 ## T-Tests on Suspension Coils
 To determine if all manufacturing lots are statistically different from the population, I performed a t-test on the means. I used a random sample of 50 PSI readings to test agains the population average. The results are below.
 ![t_test](https://user-images.githubusercontent.com/30487641/139542991-bc4a105b-5130-4070-9019-bb75ce13d965.PNG)
-
 The p-value is 0.75, which is much larger than our 0.05 threshold. Therefore, we failed reject the null hypothesis, and state that the two means are statistically similar. 
 
 The next step was to test each lot individually against the population to see if any specific lot differed from the population. I did a t-test on the means, and used a random sample of 25 PSI readings from a specific lot to test against the overall average. Here is the test lot1, lot2, and lot3 respectively.
 ![lot1_test](https://user-images.githubusercontent.com/30487641/139543711-7addfc76-4539-4430-a52b-cee4c26a1f44.PNG)
-
 The p-value is 0.000048, so we reject the null hypothesis and conclude that the two means are statistically different.
 
 ![lot2_test](https://user-images.githubusercontent.com/30487641/139543769-9a9e57c9-c7e5-4e4b-9649-c4b4585ee977.PNG)
-
 The p-value (0.0559) is just above our 0.05 threshold, so we fail to reject the null hypothesis. Lot 2's mean is statistically similar to the population mean.
 
 ![lot3_test](https://user-images.githubusercontent.com/30487641/139546213-3470f30d-0e0a-4727-80ca-fe39c62f9e7f.PNG)
-
 The p-value (0.1188) is above our threshold, so we fail to reject the null hypothesis. 
 
 
