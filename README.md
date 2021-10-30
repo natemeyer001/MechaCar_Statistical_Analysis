@@ -42,7 +42,6 @@ The variance for all cars is 62.29, which passes the threshold, but we need to l
 
 
 ## T-Tests on Suspension Coils
-### Results
 To determine if all manufacturing lots are statistically different from the population, I performed a t-test on the means. I used a random sample of 50 PSI readings to test agains the population average. The results are below.
 ![t_test](https://user-images.githubusercontent.com/30487641/139542991-bc4a105b-5130-4070-9019-bb75ce13d965.PNG)
 
